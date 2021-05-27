@@ -1,5 +1,5 @@
 require './lib/person'
-require './lib.ride'
+require './lib/ride'
 
 RSpec.describe Ride do
   it 'exists' do
@@ -40,6 +40,6 @@ RSpec.describe Ride do
     millennium.add_passenger(taylor)
     millennium.add_passenger(lauren)
 
-    expect(millenium.percentage_adults).to eq(67)
+    expect(millennium.percentage_adults).to eq(67)
   end
 end
